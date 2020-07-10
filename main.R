@@ -2,7 +2,7 @@
 # Made by: Mathias Isaksen
 
 library(ggplot2) # For visualizations
-library(cowplot) # For theme_nothing (removes all elements from a ggplot, except the )
+library(cowplot) # For theme_nothing (removes all elements from a ggplot, except for the plot panel)
 library(pals) # For color palettes
 library(plotwidgets) # For darkenCol, which darkens/brightens a color
 
