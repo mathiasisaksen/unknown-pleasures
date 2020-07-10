@@ -46,7 +46,7 @@ bump.function = function(x, width = 0.365, s = 0.025) {
 get.palette = function(i) {
   if (i >= 1 & i < 43) {
     # For frames 1 to 42, use a black fill
-    frame.palette = rep("black", 80)
+    frame.palette = rep("black", num.frames)
   } else if (i >= 43 & i <= 50) {
     # Go from black fill to gnuplot gradually
     frame.palette = darkenCol(palette, by = (51-i)/9)
